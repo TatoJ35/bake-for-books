@@ -1,11 +1,16 @@
-# Bake for Books — fundraiser site
+# United Hope For All — fundraiser site
 
-Static site for a school bake sale fundraiser (Logos International Academy,
-sales every 20 days) supporting Afghan girls' education via Malala Fund.
+Student-led awareness + fundraiser site (Logos International Academy) for
+Afghan girls' education. Funds go to the Malala Fund's Afghanistan Initiative.
 
 ## Stack
 Plain HTML/CSS/JS. No framework, no build step, no npm packages, no backend,
 no database. Keep it that way.
+
+## Design direction
+Light theme: blues + white, one soft/pastel red accent used sparingly.
+Bubbly and minimalistic — rounded shapes, generous whitespace, soft shadows
+instead of hard borders. Friendly and clean, not dark or literary.
 
 ## Rules
 - Work in small, scoped edits: one file or section per request. Don't touch
@@ -14,8 +19,8 @@ no database. Keep it that way.
   asked — even if it looks like an improvement.
 - Text in `[BRACKETS]` is an intentional placeholder, not a bug. Leave it
   unless the task is to fill in that specific one.
-- Donate button links to Malala Fund (malala.org/donate/afghanistan).
-  Don't change the destination unless told to.
+- Donate button links to Malala Fund's donate page. Don't change the
+  destination unless told to.
 
 ## Files
 - index.html   → all content
