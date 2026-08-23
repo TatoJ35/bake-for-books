@@ -1,0 +1,4 @@
+Drop your bake sale photos here (JPG/PNG, ideally under 500KB each).
+
+Reference them in index.html like this:
+<img src="images/your-photo.jpg" alt="Describe what's in the photo">
