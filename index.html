@@ -30,8 +30,25 @@
 <main id="top">
 
   <section class="hero container">
+    <div class="hero-decor" aria-hidden="true">
+      <svg class="hero-blob hero-blob-1" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <path d="M320,60C360,100,380,160,370,220C360,280,310,330,250,350C190,370,120,360,80,320C40,280,20,220,30,160C40,100,80,50,140,30C200,10,280,20,320,60Z" style="fill: var(--blue-primary); fill-opacity: 0.06;"/>
+      </svg>
+      <svg class="hero-blob hero-blob-2" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+        <path d="M230,40C260,80,270,140,250,190C230,240,180,270,130,270C80,270,30,240,15,190C0,140,20,80,60,45C100,10,200,0,230,40Z" style="fill: var(--blue-primary); fill-opacity: 0.06;"/>
+      </svg>
+      <svg class="hero-icon hero-icon-book" viewBox="0 0 24 24" fill="none" stroke="var(--blue-deep)" stroke-opacity="0.2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" vector-effect="non-scaling-stroke"/>
+        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" vector-effect="non-scaling-stroke"/>
+      </svg>
+      <svg class="hero-icon hero-icon-cap" viewBox="0 0 24 24" fill="none" stroke="var(--blue-deep)" stroke-opacity="0.2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 3 2 8l10 5 10-5-10-5Z" vector-effect="non-scaling-stroke"/>
+        <path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5" vector-effect="non-scaling-stroke"/>
+        <path d="M22 8v6" vector-effect="non-scaling-stroke"/>
+      </svg>
+    </div>
     <p class="eyebrow">A student-run fundraiser</p>
-    <h1 class="hero-headline">Opening Doors Where They've Been Closed</h1>
+    <h1 class="hero-headline">Hope Starts With You</h1>
     <p class="hero-sub">We're a group of students from Logos International Academy standing in solidarity with Afghan girls who are currently denied the right to go to school.</p>
     <div class="hero-actions">
       <a href="#donate" class="btn btn-primary">Donate Now</a>
@@ -51,15 +68,31 @@
       <h2 class="section-title">Why it matters</h2>
       <p class="section-lede">Since September 2021, girls in Afghanistan have been banned from school past sixth grade. We can't change policy — but we can fund the people working around it.</p>
       <div class="stat-grid">
-        <div class="stat-card reveal">
+        <div class="stat-card stat-card-1 reveal">
+          <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
           <p class="stat-number">2.4M+</p>
           <p class="stat-label">girls currently barred from secondary school</p>
         </div>
-        <div class="stat-card reveal">
+        <div class="stat-card stat-card-2 reveal">
+          <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M2 12h20"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
           <p class="stat-number">Only one</p>
           <p class="stat-label">country in the world with a ban like this</p>
         </div>
-        <div class="stat-card reveal">
+        <div class="stat-card stat-card-3 reveal">
+          <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <line x1="18" y1="20" x2="18" y2="10"/>
+            <line x1="12" y1="20" x2="12" y2="4"/>
+            <line x1="6" y1="20" x2="6" y2="14"/>
+          </svg>
           <p class="stat-number">$84M</p>
           <p class="stat-label">lost yearly from Afghanistan's economy because of it</p>
         </div>
@@ -72,9 +105,29 @@
     <div class="container">
       <h2 class="section-title">The bake sale</h2>
       <div class="event-card reveal">
-        <div class="event-detail"><span class="event-label">When</span><span>[DATE, TIME]</span></div>
-        <div class="event-detail"><span class="event-label">Where</span><span>[LOCATION]</span></div>
+        <div class="event-detail"><span class="event-label">When</span><span>Coming soon</span></div>
+        <div class="event-detail"><span class="event-label">Where</span><span>Logos International Academy</span></div>
         <p class="event-blurb">Every treat you buy goes straight to girls' education. Cash and card both work. Come hungry — leave knowing your cookie did something.</p>
+      </div>
+
+      <div class="photo-carousel reveal">
+        <button type="button" class="carousel-arrow carousel-arrow-prev" aria-label="Previous photo">&#8249;</button>
+        <div class="photo-track">
+          <!-- Real bake sale photos — restore when available, remove the placeholder items below.
+          <div class="photo-item"><img src="images/bakesale-1.jpeg" alt="Bake sale photo 1" loading="lazy"></div>
+          <div class="photo-item"><img src="images/bakesale-2.jpeg" alt="Bake sale photo 2" loading="lazy"></div>
+          <div class="photo-item"><img src="images/bakesale-3.jpeg" alt="Bake sale photo 3" loading="lazy"></div>
+          <div class="photo-item"><img src="images/bakesale-4.jpeg" alt="Bake sale photo 4" loading="lazy"></div>
+          <div class="photo-item"><img src="images/bakesale-5.jpeg" alt="Bake sale photo 5" loading="lazy"></div>
+          -->
+          <div class="photo-item"><div class="photo-placeholder">COMING SOON</div></div>
+          <div class="photo-item"><div class="photo-placeholder">COMING SOON</div></div>
+          <div class="photo-item"><div class="photo-placeholder">COMING SOON</div></div>
+          <div class="photo-item"><div class="photo-placeholder">COMING SOON</div></div>
+          <div class="photo-item"><div class="photo-placeholder">COMING SOON</div></div>
+          <div class="photo-item"><div class="photo-placeholder">COMING SOON</div></div>
+        </div>
+        <button type="button" class="carousel-arrow carousel-arrow-next" aria-label="Next photo">&#8250;</button>
       </div>
     </div>
   </section>
@@ -83,8 +136,48 @@
     <div class="container">
       <h2 class="section-title">Where your money goes</h2>
       <p class="section-lede">All funds raised through this project go directly to support the Malala Fund and their dedicated work, including their Afghanistan Initiative, which supports local educators and advocates fighting to keep girls learning.</p>
-      <a href="https://malala.org/donate/afghanistan" class="btn btn-primary btn-large" target="_blank" rel="noopener">Donate via [Charity Name] →</a>
-      <p class="raised-note">Raised so far: <strong>$0</strong> — updated by hand after every bake sale.</p>
+      <a href="https://malala.org/donate/afghanistan" class="btn btn-primary btn-large" target="_blank" rel="noopener">Donate via Malala Fund →</a>
+
+      <p class="donation-total reveal">$<span id="donationTotal">0</span> raised of $<span id="donationGoal">500</span> goal</p>
+    </div>
+
+    <div class="progress-bar-bleed reveal">
+      <div class="donation-bar" id="donationBar">
+        <div class="donation-track">
+          <div class="donation-segment donation-segment-bakesale" id="segmentBakeSale"></div>
+          <div class="donation-segment donation-segment-donation" id="segmentDonation"></div>
+        </div>
+        <div class="donation-milestones">
+          <div class="donation-milestone" data-milestone="125" style="left: 25%;">
+            <span class="milestone-tick"></span>
+            <span class="milestone-label">$125</span>
+          </div>
+          <div class="donation-milestone" data-milestone="250" style="left: 50%;">
+            <span class="milestone-tick"></span>
+            <span class="milestone-label">$250</span>
+          </div>
+          <div class="donation-milestone" data-milestone="375" style="left: 75%;">
+            <span class="milestone-tick"></span>
+            <span class="milestone-label">$375</span>
+          </div>
+          <div class="donation-milestone" data-milestone="500" style="left: 100%;">
+            <span class="milestone-tick"></span>
+            <span class="milestone-label">$500 — Goal!</span>
+          </div>
+        </div>
+        <div class="donation-tooltip" id="donationTooltip"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="donation-info reveal">
+        <ul class="donation-legend">
+          <li><span class="legend-dot legend-dot-bakesale"></span>Bake sales</li>
+          <li><span class="legend-dot legend-dot-donation"></span>Individual donations</li>
+        </ul>
+
+        <ul class="donation-feed" id="donationFeed"></ul>
+      </div>
     </div>
   </section>
 
@@ -109,6 +202,7 @@
   </div>
 </footer>
 
+<script src="donations.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
