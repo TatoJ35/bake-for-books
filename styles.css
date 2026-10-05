@@ -720,6 +720,11 @@ section { padding: 90px 0; }
 
 .footer-inner p { margin: 0; }
 
+.footer-contact a {
+  color: var(--blue-primary);
+  font-weight: 600;
+}
+
 /* ---------- scroll reveal ---------- */
 .reveal {
   opacity: 0;
